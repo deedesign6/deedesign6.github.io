@@ -1,6 +1,6 @@
 class MyCategory extends HTMLElement {
     connectedCallback() {
-        this.innerHTML = `      <div class="section text-center pt-0 pb-0">
+        this.innerHTML = `      <div class="section text-center pt-0 pb-0 pb-0">
     <h2 class="title mt-4 mt-4">专家团队</h2>
     <div class="row">
       <div class="">
@@ -26,7 +26,7 @@ class MyCategory extends HTMLElement {
             <div class="tab-pane" id="link1">
               <div class="main mt-1">
                 <div class="container">
-                  <div class="section text-center pt-0">
+                  <div class="section text-center pt-0 pb-0">
 
                     <div class="team">
                       <div class="row">
@@ -41,7 +41,7 @@ class MyCategory extends HTMLElement {
                               <h5 class="card-category text-gray">主任医师</h5>
                               <h4 class="card-title">王医中</h4>
                               <p class="card-description">
-                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员，挂职于青海省中医院，任副院长。现任中国中医科学院广安门医院第二门诊部副主任（负责人）。北京中医药学会仲景学说专业委员会常委，中华中医药学会肿瘤分会委员，世界中医药...                  </p>
+                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员。                  </p>
                             </div>
                           </div>
                         </div>
@@ -56,7 +56,7 @@ class MyCategory extends HTMLElement {
                               <h5 class="card-category text-gray">主任医师</h5>
                               <h4 class="card-title">王医中</h4>
                               <p class="card-description">
-                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员，挂职于青海省中医院，任副院长。现任中国中医科学院广安门医院第二门诊部副主任（负责人）。北京中医药学会仲景学说专业委员会常委，中华中医药学会肿瘤分会委员，世界中医药...                  </p>
+                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员。                  </p>
 
                             </div>
                           </div>
@@ -72,7 +72,7 @@ class MyCategory extends HTMLElement {
                               <h5 class="card-category text-gray">主任医师</h5>
                               <h4 class="card-title">王医中</h4>
                               <p class="card-description">
-                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员，挂职于青海省中医院，任副院长。现任中国中医科学院广安门医院第二门诊部副主任（负责人）。北京中医药学会仲景学说专业委员会常委，中华中医药学会肿瘤分会委员，世界中医药...                  </p>
+                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员。                  </p>
 
                             </div>
                           </div>
@@ -86,7 +86,7 @@ class MyCategory extends HTMLElement {
             <div class="tab-pane" id="link2">
               <div class="main mt-1">
                 <div class="container">
-                  <div class="section text-center pt-0">
+                  <div class="section text-center pt-0 pb-0 pb-0">
                     <div class="team">
                       <div class="row">
                         <div class="col-md-4 mt-5">
@@ -100,7 +100,7 @@ class MyCategory extends HTMLElement {
                               <h5 class="card-category text-gray">主任医师</h5>
                               <h4 class="card-title">王医中</h4>
                               <p class="card-description">
-                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员，挂职于青海省中医院，任副院长。现任中国中医科学院广安门医院第二门诊部副主任（负责人）。北京中医药学会仲景学说专业委员会常委，中华中医药学会肿瘤分会委员，世界中医药...                  </p>
+                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员。                  </p>
                             </div>
                           </div>
                         </div>
@@ -115,7 +115,7 @@ class MyCategory extends HTMLElement {
                               <h5 class="card-category text-gray">主任医师</h5>
                               <h4 class="card-title">王医中</h4>
                               <p class="card-description">
-                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员，挂职于青海省中医院，任副院长。现任中国中医科学院广安门医院第二门诊部副主任（负责人）。北京中医药学会仲景学说专业委员会常委，中华中医药学会肿瘤分会委员，世界中医药...                  </p>
+                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员。                  </p>
 
                             </div>
                           </div>
@@ -131,7 +131,7 @@ class MyCategory extends HTMLElement {
                               <h5 class="card-category text-gray">主任医师</h5>
                               <h4 class="card-title">王医中</h4>
                               <p class="card-description">
-                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员，挂职于青海省中医院，任副院长。现任中国中医科学院广安门医院第二门诊部副主任（负责人）。北京中医药学会仲景学说专业委员会常委，中华中医药学会肿瘤分会委员，世界中医药...                  </p>
+                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员。                  </p>
 
                             </div>
                           </div>
@@ -145,7 +145,7 @@ class MyCategory extends HTMLElement {
             <div class="tab-pane active show" id="link3">
               <div class="main mt-1">
                 <div class="container">
-                  <div class="section text-center pt-0">
+                  <div class="section text-center pt-0 pb-0">
                     <div class="team">
                       <div class="row">
                         <div class="col-md-4 mt-5">
@@ -159,7 +159,7 @@ class MyCategory extends HTMLElement {
                               <h5 class="card-category text-gray">主任医师</h5>
                               <h4 class="card-title">王医中</h4>
                               <p class="card-description">
-                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员，挂职于青海省中医院，任副院长。现任中国中医科学院广安门医院第二门诊部副主任（负责人）。北京中医药学会仲景学说专业委员会常委，中华中医药学会肿瘤分会委员，世界中医药...                  </p>
+                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员。                  </p>
                             </div>
                           </div>
                         </div>
@@ -174,7 +174,7 @@ class MyCategory extends HTMLElement {
                               <h5 class="card-category text-gray">主任医师</h5>
                               <h4 class="card-title">王医中</h4>
                               <p class="card-description">
-                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员，挂职于青海省中医院，任副院长。现任中国中医科学院广安门医院第二门诊部副主任（负责人）。北京中医药学会仲景学说专业委员会常委，中华中医药学会肿瘤分会委员，世界中医药...                  </p>
+                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员。                  </p>
 
                             </div>
                           </div>
@@ -190,7 +190,7 @@ class MyCategory extends HTMLElement {
                               <h5 class="card-category text-gray">主任医师</h5>
                               <h4 class="card-title">王医中</h4>
                               <p class="card-description">
-                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员，挂职于青海省中医院，任副院长。现任中国中医科学院广安门医院第二门诊部副主任（负责人）。北京中医药学会仲景学说专业委员会常委，中华中医药学会肿瘤分会委员，世界中医药...                  </p>
+                                王医中，医学博士，主任医师，中国中医科学院硕士研究生导师，辽宁中医药大学兼职硕士研究生导师，青海大学医学院特聘教授，中组部、团中央第21批博士服务团成员。                  </p>
 
                             </div>
                           </div>
