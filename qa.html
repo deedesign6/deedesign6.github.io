@@ -2,22 +2,27 @@
   <script type="text/javascript" src="assets/js/main/forbit.js"></script>
   <script type="text/javascript" src="assets/js/main/header.js"></script>
   <script type="text/javascript" src="assets/js/main/contact.js"></script>
-  <script type="text/javascript"  src="assets/js/main/footer.js"></script>
+  <script type="text/javascript" src="assets/js/main/category.js"></script>
+  <script type="text/javascript" src="assets/js/main/footer.js"></script>
   <meta charset="utf-8">
   <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>
-    Hai Wai- contact
+    Hai Wai
   </title>
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" #38bae0="viewport">
+  <!--     Fonts and icons     -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="assets/css/hw.css" rel="stylesheet">
   <style>
+    .nav-pills .nav-item .nav-link{
+      font-size: 16px;
+    }
     .page-header {
-      height: 70vh}
+      height: 30vh}
     .card .card-header.card-header-image a {
       height: 260px;
       overflow: hidden;
@@ -31,23 +36,72 @@
     .card .card-body, .card .card-footer {
       padding: 2.9375rem 1.875rem  1.1rem;
     }
-    .nav-pills .nav-item .nav-link{
-      font-size: 16px;
-    }
 
   </style>
 
-  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/8/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/8/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/util.js"></script></head>
+  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/8/common.js"></script>
+  <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/8/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/util.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/55/9/util.js"></script></head>
 
 <body class="landing-page sidebar-collapse">
 <my-header></my-header>
+<div class="carousel-item active">
+  <div class="page-header header-filter" style="background-image: url('assets/img/bg03.jpg');">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 ml-auto text-right">
+          <h1 class="title">常见问题</h1>
+          <h4>请参考常见问题</h4>
+          <br>
 
-<div class="main">
-  <div class="container">
-    <my-contact></my-contact>
-
+        </div>
+      </div>
+    </div>
   </div>
 </div>
+<div class="main main-raised">
+  <div class="container p-5 ">
+    <div class="card">
+      <div class="card-body p-5 m-5">
+        <div class="row">
+          <div class="col-md-5">
+            <ul class="nav nav-pills nav-pills-info flex-column" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active show" data-toggle="tab" href="#link4" role="tablist">
+                  提交预约后多久收到会诊确认信息
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " data-toggle="tab" href="#link5" role="tablist">
+                  每次线上诊辽有几个医生
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#link6" role="tablist">
+                  每次线上诊辽的时间有多久
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-7">
+            <div class="tab-content">
+              <div class="tab-pane" id="link4">
+                提交预约后用户约                <br>
+                <br> 2个工作日后会收到医院线上诊辽的视频链。如果因为特殊原因医院没有接受您的预约 您的付款将会在xx 工作日被退回原账户
+              </div>
+              <div class="tab-pane active show" id="link5">
+                首诊医师 和至少1名专科专家和您网上会诊
+              </div>
+              <div class="tab-pane" id="link6">
+                在30分钟以内，但会根据患者的需要做适当调整
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <my-footer></my-footer>
 <!--   Core JS Files   -->
 <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>

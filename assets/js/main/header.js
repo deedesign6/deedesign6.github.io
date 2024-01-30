@@ -29,17 +29,17 @@
             <a href="guang.html" class="dropdown-item">
               <i class="material-icons">line_style</i> 广安门医院
             </a>
-            <a href="/introduction.html" class="dropdown-item">
+            <a href="contact.html" class="dropdown-item">
               <i class="material-icons">content_paste</i>联系我们
             </a>
           </div>
         </li>
         <li class="dropdown nav-item">
-          <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+          <a href="" class="dropdown-toggle nav-link" data-toggle="dropdown">
             <i class="material-icons">view_day</i> 成功案例
           </a>
           <div class="dropdown-menu dropdown-with-icons">
-            <a href="./sections.html#headers" class="dropdown-item">
+            <a href="" class="dropdown-item">
               <i class="material-icons">dns</i> 待定
             </a>
 
