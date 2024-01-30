@@ -24,7 +24,7 @@ class MyCategory extends HTMLElement {
           </ul>
           <div class="tab-content tab-space">
             <div class="tab-pane" id="link1">
-              <div class="main main-raised mt-1">
+              <div class="main mt-1">
                 <div class="container">
                   <div class="section text-center pt-0">
 
@@ -84,7 +84,7 @@ class MyCategory extends HTMLElement {
               </div>
             </div>
             <div class="tab-pane" id="link2">
-              <div class="main main-raised mt-1">
+              <div class="main mt-1">
                 <div class="container">
                   <div class="section text-center pt-0">
                     <div class="team">
@@ -143,7 +143,7 @@ class MyCategory extends HTMLElement {
               </div>
             </div>
             <div class="tab-pane active show" id="link3">
-              <div class="main main-raised mt-1">
+              <div class="main mt-1">
                 <div class="container">
                   <div class="section text-center pt-0">
                     <div class="team">
