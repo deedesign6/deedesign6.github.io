@@ -1,13 +1,13 @@
 /*!
 
  =========================================================
- * Hai Wai - v2.2.1
+ * Material Kit PRO - v2.2.1
  =========================================================
 
- * Product Page: https://www.haiwai.com/product/hw-pro
- * Copyright 2022 Hai Wai (http://www.haiwai.com)
+ * Product Page: https://www.creative-tim.com/product/material-kit-pro
+ * Copyright 2022 Creative Tim (http://www.creative-tim.com)
 
- * Designed by www.invisionapp.com Coded by www.haiwai.com
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
 
  =========================================================
 
